@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{037a9a02-b906-4cc5-ad98-304acd4e25ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{2d1d0979-58cd-4ab6-b91c-13650158f1fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes">
+      <UniqueIdentifier>{87ef97b2-ca3e-460b-ad80-7fd55bb16a51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\mir">
+      <UniqueIdentifier>{8a2c9618-dbf0-4823-992a-20e139cadf67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SimulatorWin.h" />
+    <ClInclude Include="stdafx.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua_module_register.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MapTileInfo.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MirTileMap.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MyCharSet.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MyKeyInsert.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MyTextField.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ODClient.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ODSocket.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SpriteX.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mir\Common.h">
+      <Filter>classes\mir</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mir\FileCache.h">
+      <Filter>classes\mir</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mir\MirFileLoader.h">
+      <Filter>classes\mir</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mir\RandomAccessFile.h">
+      <Filter>classes\mir</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mir\WZLReader.h">
+      <Filter>classes\mir</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CursorTextField.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mir\WILReader.h">
+      <Filter>classes\mir</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PixelCollision.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RemindShader.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RenderShader.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="SimulatorWin.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MapTileInfo.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MirTileMap.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MyCharSet.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MyKeyInsert.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MyTextField.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ODClient.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ODSocket.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SpriteX.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mir\Common.cpp">
+      <Filter>classes\mir</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mir\FileCache.cpp">
+      <Filter>classes\mir</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mir\MirFileLoader.cpp">
+      <Filter>classes\mir</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mir\RandomAccessFile.cpp">
+      <Filter>classes\mir</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mir\WZLReader.cpp">
+      <Filter>classes\mir</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CursorTextField.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mir\WILReader.cpp">
+      <Filter>classes\mir</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PixelCollision.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RemindShader.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RenderShader.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\mir.ico">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>resource</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
